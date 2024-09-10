@@ -1,13 +1,13 @@
 # Setup:
 1. New installation
-- npm init playwright
+- `npm init playwright`
 2. Ensure the below are available
-- npm install playwright
-- npm install @axe-core/playwright
-- npx playwright install chromium
+- `npm install playwright`
+- `npm install @axe-core/playwright`
+- `npx playwright install chromium`
 
 # Execute:
-- npx playwright test   
+- `npx playwright test`  
 note: To run only chormium, update the playwright.config.js
 
 # Support:
@@ -16,9 +16,9 @@ note: To run only chormium, update the playwright.config.js
 3. For the test we are using the website (https://commitquality.com/practice-api)
 4. Start using virtual environment
 - On visual Studio code https://www.youtube.com/watch?v=GZbeL5AcTgw
-Create virtual environment :  python3.11 -m venv .venv
-Activate virtual environment : source .venv/bin/activate
-Remove virtual : rm -rf .venv
+  - Create virtual environment :  `python3.11 -m venv venv`
+  - Activate virtual environment : `source venv/bin/activate`
+  - Remove virtual : `rm -rf venv`
 - On Pycharm - use virtual environment while cloning the repo (move the venv file to git ignore)
 https://www.youtube.com/watch?v=2P30W3TN4nI
 5. Use Playwright storageState for Auth (https://playwright.dev/docs/auth)
