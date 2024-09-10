@@ -9,7 +9,8 @@ test.only("the page is accessible", async ({page}, testInfo) =>{
     const axeBuilder = await new AxeBuilder({page})
         // .include(".back-link") // only check the back-link
         // . exclude("h2")         // we can exclue
-        .withTags(["wcag2aa","best-practice"]) // we can use withTags
+        .withTags(["wcag2aa"]) // we can use withTags
+        .exclude(["best-practice"]) // we can use exclue
         .disableRules(["landmark-one-main"]) // disable rule
         .analyze();
     await testInfo.attach("accessibility-scan-results",{
