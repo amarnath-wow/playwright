@@ -11,7 +11,8 @@
 note: To run only chormium, update the playwright.config.js
 
 # Support:
-1. Automation framework - Playwright accessibiligyt https://playwright.dev/docs/accessibility-testing
+## Accessibility:
+1. Automation framework - Playwright accessibility https://playwright.dev/docs/accessibility-testing
 2. rely package - axe-core https://www.npmjs.com/package/@axe-core/playwright
 3. For the test we are using the website (https://commitquality.com/practice-api)
 4. Start using virtual environment
